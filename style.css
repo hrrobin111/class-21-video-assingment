@@ -1,0 +1,337 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+.header{
+    background-color: #4a1aa4;
+    padding: 0;
+    border-bottom: 1px solid #7966c3;
+    
+}
+.header .logo{
+    line-height: 77px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+
+}
+
+.header .logo small{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header .menu ul{}
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    line-height: 60px;
+    transition: .4s;
+}
+.header .menu ul li a:hover{
+    color: rgba(255, 185, 185, 0.657);
+}
+.header .menu .active {
+    color: rgba(255, 185, 185, 0.657);
+}
+
+.header .menu .active:hover{
+    color: #fff;
+}
+
+.header .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.header .button  h3{
+    
+    display: inline-block;
+    padding: 9px 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+    transition: 0.4s;
+}
+
+.header .button .button2{
+    background-color: #00bcd4;
+    border: 2px solid #00bcd4;
+}
+
+.header .button  h3:hover{
+    background-color: #fff;
+    color: rgb(181, 161, 201);
+}
+.header .button .button2:hover{
+    background-color: #01aec5;
+}
+
+/* banner */
+
+.banner{
+    background: url(img/banner.jpg) no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+    background-attachment: fixed;
+}
+
+.banner .domain-title h2{
+
+    font-size: 36px;
+    letter-spacing: 7px;
+    margin-right: 124px;
+    font-weight: 600;
+}
+
+.banner .form-search input{
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+    color: white;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+/* button */
+
+.banner .button3 {
+    margin-top: 18px;
+    padding: 13px 35px;
+}
+
+/* box */
+.banner .box-row{
+    max-width: 700px;
+    margin: auto;
+    color: white;
+   
+}
+.banner .box{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    margin-right: 8px;
+    margin-top: 5px;
+    
+}
+
+/* brand-logo  */
+
+.brand-logo{
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    
+}
+.brand-logo h2{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.brand-logo .logo-box {
+    width: 920px;
+    margin: auto;
+}
+
+/* service-section */
+
+.service-section{
+    padding: 100px 0;
+}
+
+.service-section h4{
+    font-size: 18px;
+    color: rgb(95, 3, 182);
+}
+
+.service-section h2{
+    font-weight: 700;
+}
+
+.service-section .paragrhap p{
+    color: #736a6a;
+}
+
+/* boxes */
+.service-section .box-item{
+    background-color: #f7f7f7;
+    
+
+    
+
+}
+
+.service-section .card{
+    padding: 45px;
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 55%);
+    transition: .5s;
+}
+
+.service-section .card:hover{
+    transform: scale(1.1) ;
+    
+}
+
+.service-section .box-item span{
+    font-size: 35px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    line-height: 80px;
+    margin: 10px auto;
+    color: #fff;
+    
+}
+
+.service-section .box-item h3{
+    font-size: 20px;
+    padding: 10px;
+}
+.service-section .box-item p{
+    color: #6a6a6a;
+    max-width: 300px;
+    margin: auto;
+    padding-bottom: 34px;
+}
+.service-section .box-item a{
+    text-decoration: none;
+
+}
+
+/* plan-section */
+
+.plan-section{
+    background: url(img/pricing-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    padding-bottom: 200px ;
+
+} 
+
+.plan-section h2{
+
+}
+
+.plan-section p{
+    width: 700px;
+    margin: auto;
+}
+
+/* price-section */
+
+.price-section .container{
+    position: absolute;
+    top: 280%;
+    left: 130px;
+
+  
+}
+
+.price-section .price-box{
+    padding: 20px 20px;
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 55%);
+    background-color: #fff;
+    position: relative;
+    margin-right: 100px;
+    
+   
+
+    
+}
+
+.price-section .price-box h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.price-section .price-box h3{
+    background-color: #00bcd4;
+    padding: 31px 48px;
+    width: 218px;
+    height: 132px;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 20px; */
+    color: white;
+    /* margin-bottom: 20px; */
+    margin: 45px auto;
+}
+.price-section .price-box p{
+    color: #6a6a6a;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.price-section .price-box ul{
+    width: 300px;
+    margin: auto;
+}
+
+
+.price-section .price-box ul li{
+    list-style: none;
+    line-height: 40px;
+}
+
+.price-section .price-box ul li span{
+    color: #6c30b1;
+    margin-right: 5px;
+}
+
+.price-section .price-box .btn{
+    padding: 9px 60px;
+    color: white;
+    text-align: center;
+    margin: 17px 70px;
+}
+
+/* Features */
+
+.Features{
+    padding: 100px;
+    margin-top: 600px;
+  
+   height: 500px;
+   background-color: #fff;
+}
+
+.Features .container{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.Features h4{
+    color: #00bcd4;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ .Features .f-box{
+     border: 1px solid rgb(48, 48, 48);
+ }
+ 
+
+ /* Testimonials */
+
+ 
